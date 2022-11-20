@@ -1,8 +1,8 @@
  ### Tarefas
  [X] Dividir a página pelo cabeçalho e principal
- [ ] criar duas caixas centrais com o grid
- [ ] adicionar a logo no cabeçalho
- [ ] adicionar os menus de navegação no cabeçalho
+ [X] criar duas caixas centrais com o grid
+ [X] adicionar a logo no cabeçalho
+ [X] adicionar os menus de navegação no cabeçalho
  [ ] adicionar o ícone do carrinho e a foto do usuario no cabeçalho
  [ ] criar um display flex no cabeçalho, envolvendo a logo e a navegação em uma div, o carrinho e a foto do perfil em outra
  [ ] criar o campo da imagem principal
