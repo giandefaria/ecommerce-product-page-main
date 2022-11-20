@@ -33,6 +33,15 @@ ul li, ul li a {
     background: orange;
 }
 
+.image--box img {
+    width: 100%;
+}
+
+.thumbnail {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .item-description {
     background: green;
 }

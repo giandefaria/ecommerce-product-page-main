@@ -5,8 +5,8 @@
  [X] adicionar os menus de navegação no cabeçalho
  [X] adicionar o ícone do carrinho e a foto do usuario no cabeçalho
  [X] criar um display flex no cabeçalho, envolvendo a logo e a navegação em uma div, o carrinho e a foto do perfil em outra
- [ ] criar o campo da imagem principal
- [ ] adicionando as miniaturas da imagem principal
+ [X] criar o campo da imagem principal
+ [X] adicionando as miniaturas da imagem principal
  [ ] criar uma div com o título em laranja, o titulo principal e a descrição
  [ ] criar u ma div com o preço, a % de desconto, e embaixo o valor total sem desconto
  [ ] criar uma div com o número de quantidade e o botão para adicionar no carrinho
