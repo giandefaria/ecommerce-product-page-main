@@ -2,6 +2,19 @@ html {
     padding: 10% ;
 }
 
+.container--header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo--nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 ul li, ul li a {
     list-style: none;
     display: inline-block;

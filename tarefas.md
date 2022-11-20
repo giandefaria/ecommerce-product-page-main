@@ -4,7 +4,7 @@
  [X] adicionar a logo no cabeçalho
  [X] adicionar os menus de navegação no cabeçalho
  [X] adicionar o ícone do carrinho e a foto do usuario no cabeçalho
- [ ] criar um display flex no cabeçalho, envolvendo a logo e a navegação em uma div, o carrinho e a foto do perfil em outra
+ [X] criar um display flex no cabeçalho, envolvendo a logo e a navegação em uma div, o carrinho e a foto do perfil em outra
  [ ] criar o campo da imagem principal
  [ ] adicionando as miniaturas da imagem principal
  [ ] criar uma div com o título em laranja, o titulo principal e a descrição
