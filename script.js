@@ -7,7 +7,12 @@ let selectedImage = "images/image-product-1.jpg"
 const cartBadge = document.getElementsByClassName('badge');
 const addCartButton = document.getElementsByClassName('add--to--cart');
 const cartValueandQuantidity = document.getElementsByClassName('value--and--multipler');
+const clearCart = document.getElementsByClassName('delete');
 
+let value = 0;
+let cartQuantidity = 0;
+
+//add image in the principal box
 function setImage () {
     mainImage.src = selectedImage;
 }
@@ -26,9 +31,7 @@ for (let i = 0; i < allThumbnail.length; i++) {
 
 }
 
-
-let value = 0;
-
+// add numer itens to add in the cart
 function setCartItens () {
     quantidity.innerHTML = value;
 }
@@ -43,17 +46,13 @@ iconMinus[0].addEventListener('click', () => {
     }
 })
 
-
 iconPlus[0].addEventListener('click', ()=> {
    
     if (value >= 0 ) { 
         value++;
-        quantidity.innerHTML = value;
+        setCartItens();
     }
-    
 })
-
-let cartQuantidity = 0;
 
 //function add price, quantidity and total value in cart box
 function totalValue () {
@@ -70,4 +69,12 @@ addCartButton[0].addEventListener('click', () => {
 
 })
 
+clearCart[0].addEventListener('click', () => {
+    value = 0;
+    cartQuantidity = 0;
+    quantidity.innerHTML = value;
+    cartBadge[0].innerHTML = ""
+    totalValue();
+
+})
 
