@@ -16,6 +16,9 @@
  [X] mostrar a quantidade do ítem no carrinho em laranja no ícone carrinho no cabeçalho 
  [X] criar função js para selecionar o valor de ítens adicionados na caixa, e adicionar essa quantidade ao carrinho ao clicar no botão 'add to cart'
  [X] Criar a caixa do carrinho de compras
- [ ] adicionar a imagem, o título, o preço e a multiplicação pelo número de itens no carrinho
- [ ] criar botão checkout
+ [X] adicionar a imagem, o título, o preço total e a quantidade no carrinho
+ [X] criar botão checkout
+ [X] criar função js que adicionará o preço total multiplicado pelo numero de itens no carrinho
+ [ ] executar a função acima quando for clicado no botão 'add to cart'
+
  

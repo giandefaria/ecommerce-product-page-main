@@ -6,6 +6,7 @@ const iconPlus = document.getElementsByClassName('icon--plus');
 let selectedImage = "images/image-product-1.jpg" 
 const cartBadge = document.getElementsByClassName('badge');
 const addCartButton = document.getElementsByClassName('add--to--cart');
+const cartValueandQuantidity = document.getElementsByClassName('value--and--multipler');
 
 function setImage () {
     mainImage.src = selectedImage;
@@ -61,4 +62,11 @@ addCartButton[0].addEventListener('click', () => {
         cartBadge[0].innerHTML = cartQuantidity;
 
 })
+
+
+function totalValue () {
+    cartValueandQuantidity[0].innerHTML = '$125.00 x ' + cartQuantidity + " " + "$" + (125.00 * cartQuantidity).toFixed(2);
+
+}
+
 
