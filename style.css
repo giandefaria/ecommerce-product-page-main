@@ -50,6 +50,7 @@ ul li, ul li a {
     position: absolute;
     right: 40px;
     top: 120px;
+    width: max-content;
 }
 
 .container {
