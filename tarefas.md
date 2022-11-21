@@ -19,6 +19,7 @@
  [X] adicionar a imagem, o título, o preço total e a quantidade no carrinho
  [X] criar botão checkout
  [X] criar função js que adicionará o preço total multiplicado pelo numero de itens no carrinho
- [ ] executar a função acima quando for clicado no botão 'add to cart'
+ [X] executar a função acima quando for clicado no botão 'add to cart'
+ [ ] criar função no ícone da lixeira para zerar o carrinho
 
  

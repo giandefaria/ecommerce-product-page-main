@@ -55,18 +55,19 @@ iconPlus[0].addEventListener('click', ()=> {
 
 let cartQuantidity = 0;
 
+//function add price, quantidity and total value in cart box
+function totalValue () {
+    cartValueandQuantidity[0].innerHTML = '$125.00 x ' + cartQuantidity + " " + "$" + (125.00 * cartQuantidity).toFixed(2);
+
+}
+
 addCartButton[0].addEventListener('click', () => {
 
         cartQuantidity = cartQuantidity + value;        
 
         cartBadge[0].innerHTML = cartQuantidity;
+        totalValue();
 
 })
-
-
-function totalValue () {
-    cartValueandQuantidity[0].innerHTML = '$125.00 x ' + cartQuantidity + " " + "$" + (125.00 * cartQuantidity).toFixed(2);
-
-}
 
 
