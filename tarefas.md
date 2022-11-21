@@ -12,6 +12,7 @@
  [X] criar uma div com o número de quantidade e o botão para adicionar no carrinho
  [X] criar uma função JS que vai adicionar no box principal a url da imagem
  [X] criar função JS que vai adicionar na caixa a foto principal a miniatura selecionada
- [ ] criar função JS para adicionar o número de ítens para adicionar no carrinho ao clicar no mais
- [ ] criar função js para selecionar o valor de ítens adicionados na caixa, e adicionar essa quantidade ao carrinho ao clicar no botão 'add to cart'
+ [X] criar função JS para adicionar o número de ítens para adicionar no carrinho ao clicar no mais
  [ ] mostrar a quantidade do ítem no carrinho em vermelho no ícone carrinho no cabeçalho 
+ [ ] criar função js para selecionar o valor de ítens adicionados na caixa, e adicionar essa quantidade ao carrinho ao clicar no botão 'add to cart'
+ 
