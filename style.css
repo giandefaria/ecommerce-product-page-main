@@ -1,6 +1,11 @@
 html {
-    padding: 0 5% 5% ;
+    width: 1440px;
+    margin: 0 auto 0;
     font-family: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    padding: 0 100px 0;
 }
 
 .container--header {
@@ -86,6 +91,7 @@ ul li, ul li a {
 .container--main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
     align-items: center;
 
 }
@@ -94,7 +100,7 @@ ul li, ul li a {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 4vw;
+    padding: 3vw;
     width: 75%;
 }
 
@@ -111,8 +117,45 @@ ul li, ul li a {
 }
 
 .item-description {
-    background: green;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 7vw 0 3vw;
 }
+
+.company {
+    margin: 0 0 30px;
+    color: hsl(26, 100%, 55%);
+    font-weight: 700;
+    font-size: 14px;    
+}
+
+.title {
+    font-weight: 700;
+    font-size: 50px;
+    margin: 0 0 30px;
+}
+
+.description, .previus--price {
+   color: hsl(219, 9%, 45%);
+   line-height: 26px;
+}
+
+
+.unit--price, .price--drop {
+    display: inline-block;
+}
+
+.unit--price {
+    font-size: 28px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.price--drop {
+    vertical-align: 4px;
+}
+
 
 .quantidity--product {
     display: flex;
@@ -122,4 +165,30 @@ ul li, ul li a {
 label {
     display: inline-flex;
     align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    padding: 18px;
+    border-radius: 10px;
+    background: hsl(223, 64%, 98%);
+
+}
+
+#quantidity {
+    font-weight: 700;
+}
+
+.add--to--cart {
+    width: 75%;
+    color: white;
+    font-weight: 700;
+    background: hsl(26, 100%, 55%);
+    border-radius: 10px;
+    border-style: none;
+}
+
+.add--to--cart img {
+    filter: brightness(3.0);
+    margin: 0 20px 0 0;
+    vertical-align: initial;
+    width: 5%;
 }
