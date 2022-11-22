@@ -24,7 +24,7 @@
  [X] ajustar visual do logo e menu de navegação
  [X] ajustar visual do ícone do carrinho e avatar
  [x] ajustar visual imagens do box principal
- [ ] ajustar visual da descrição box principal
+ [X] ajustar visual da descrição box principal
  [ ] ajustar visual do preço do produto
  [ ] ajustar visual do outpot de ítens do carrinho e o botão de 'add to cart'
  [ ] ajustar visual da caixa do carrinho. Acho que tem que adicionar um sombreamento
