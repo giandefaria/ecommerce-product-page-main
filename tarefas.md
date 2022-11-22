@@ -23,7 +23,7 @@
  [X] criar função no ícone da lixeira para zerar o carrinho
  [X] ajustar visual do logo e menu de navegação
  [X] ajustar visual do ícone do carrinho e avatar
- [ ] ajustar visual do box principal
+ [x] ajustar visual imagens do box principal
  [ ] ajustar visual da descrição box principal
  [ ] ajustar visual do preço do produto
  [ ] ajustar visual do outpot de ítens do carrinho e o botão de 'add to cart'

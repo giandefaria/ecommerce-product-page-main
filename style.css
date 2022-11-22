@@ -1,5 +1,5 @@
 html {
-    padding: 0 5% ;
+    padding: 0 5% 5% ;
     font-family: 'Kumbh Sans', sans-serif;
 }
 
@@ -86,16 +86,21 @@ ul li, ul li a {
 .container--main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background: gray;
     align-items: center;
+
 }
 
 .light--box {
-    background: orange;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 4vw;
+    width: 75%;
 }
 
-.image--box img {
+.image--box img, .thumbnail img {
     width: 100%;
+    border-radius: 14px;
 }
 
 .thumbnail {
