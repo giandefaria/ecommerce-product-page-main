@@ -1,5 +1,6 @@
 html {
-    padding: 5% ;
+    padding: 0 5% ;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 .container--header {
@@ -7,24 +8,39 @@ html {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 4vh 0;
+    border-bottom: hsl(220, 14%, 75%);;
+    border-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 20px;
 }
 
 .logo--nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 3vw;
 }
 
 ul li, ul li a {
     list-style: none;
     display: inline-block;
     text-decoration: none;
-    color: black;
+    color: hsl(219, 9%, 45%);
+    margin: 0 1vw 0 0;
 }
 
 .cart--img {
     position: relative;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
 }
+
+.image--avatar {
+    width: 42px;
+}
+
 
 .cart--notification { 
     text-decoration: none;
@@ -48,8 +64,8 @@ ul li, ul li a {
 
 .cart--box {
     position: absolute;
-    right: 40px;
-    top: 120px;
+    right: -45px;
+    top: 60px;
     width: max-content;
 }
 
