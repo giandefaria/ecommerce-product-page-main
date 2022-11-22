@@ -21,8 +21,8 @@
  [X] criar função js que adicionará o preço total multiplicado pelo numero de itens no carrinho
  [X] executar a função acima quando for clicado no botão 'add to cart'
  [X] criar função no ícone da lixeira para zerar o carrinho
- [ ] ajustar visual do logo e menu de navegação
- [ ] ajustar visual do ícone do carrinho e avatar
+ [X] ajustar visual do logo e menu de navegação
+ [X] ajustar visual do ícone do carrinho e avatar
  [ ] ajustar visual do box principal
  [ ] ajustar visual da descrição box principal
  [ ] ajustar visual do preço do produto
