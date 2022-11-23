@@ -62,30 +62,93 @@ ul li, ul li a {
     background: orange;
 }
 
-.cart--itens {
-    display: flex;
+
+.cart--empty {
+    display: none;
+}
+
+.cart--empty--active {
+    display: block;
+    width: 306px;
     align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    text-align: center;
+    color: hsl(219, 9%, 45%);
 }
 
 .cart--box {
+    display: none;
+}
+
+.cart--box--active {
+    display: block;
     position: absolute;
     right: -45px;
     top: 60px;
     width: max-content;
+    box-shadow: 0px 10px 24px -7px grey;
+    background: hsl(0, 0%, 100%)
+}
+
+.cart--title {
+    border-bottom: hsl(220, 14%, 75%);
+    border-style: solid;
+    border-bottom-width: 1px;
+    padding: 25px;
+    font-weight: 700;
 }
 
 .container {
+    display: none;
+}
+
+.container--active {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 25px;
+    gap: 20px;
+}
+
+.cart--itens {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .cart--thumbnail {
     width: 50px;
+    border-radius: 5px;
+}
+
+.description--cart {
+    color: hsl(219, 9%, 45%);
 }
 
 .description--cart p {
     display: inline-block;
+    margin-top: 10px;
+}
+
+.delete {
+    cursor: pointer;
+}
+
+.cart--total {
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+.checkout {
+    width: 100%;
+    color: white;
+    font-weight: 700;
+    background: hsl(26, 100%, 55%);
+    border-radius: 10px;
+    border-style: none;
+    padding: 20px 0;
+    cursor: pointer;
 }
 
 .container--main {
@@ -125,9 +188,10 @@ ul li, ul li a {
 
 .company {
     margin: 0 0 30px;
-    color: hsl(26, 100%, 55%);
+    color: orange;
     font-weight: 700;
-    font-size: 14px;    
+    font-size: 14px; 
+    letter-spacing: 1px;   
 }
 
 .title {
@@ -139,6 +203,13 @@ ul li, ul li a {
 .description, .previus--price {
    color: hsl(219, 9%, 45%);
    line-height: 26px;
+   font-size: 17px;
+}
+
+.previus--price {
+    text-decoration: line-through;
+    font-weight: 700;
+    color: hsl(220, 14%, 75%);
 }
 
 
@@ -154,6 +225,10 @@ ul li, ul li a {
 
 .price--drop {
     vertical-align: 4px;
+    background: hsl(25, 100%, 94%);
+    padding: 1% 2%;
+    color: orange;
+    font-weight: 700;
 }
 
 
@@ -167,10 +242,14 @@ label {
     align-items: center;
     justify-content: space-between;
     width: 40%;
-    padding: 18px;
     border-radius: 10px;
     background: hsl(223, 64%, 98%);
 
+}
+
+.icon--minus, .icon--plus {
+    padding: 18px;
+    cursor: pointer;
 }
 
 #quantidity {
@@ -184,6 +263,7 @@ label {
     background: hsl(26, 100%, 55%);
     border-radius: 10px;
     border-style: none;
+    cursor: pointer;
 }
 
 .add--to--cart img {

@@ -25,8 +25,11 @@
  [X] ajustar visual do ícone do carrinho e avatar
  [x] ajustar visual imagens do box principal
  [X] ajustar visual da descrição box principal
- [ ] ajustar visual do preço do produto
- [ ] ajustar visual do outpot de ítens do carrinho e o botão de 'add to cart'
- [ ] ajustar visual da caixa do carrinho. Acho que tem que adicionar um sombreamento
+ [X] ajustar visual do preço do produto
+ [X] ajustar visual do outpot de ítens do carrinho e o botão de 'add to cart'
+ [X] ajustar visual da caixa do carrinho. Adicionar sombreamento
+ [X] mensagem de carrinho vazio quando não tiver itens adicionados
+ [X] Substituir a mensagem de carrinho vazio para o produto com a quantidade adicionada ao carrinho após clicar no botão 'add to cart'
+ [X] abrir e fechar a caixa do carrinho ao clique;
 
  
