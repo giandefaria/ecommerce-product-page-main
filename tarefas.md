@@ -31,5 +31,14 @@
  [X] mensagem de carrinho vazio quando não tiver itens adicionados
  [X] Substituir a mensagem de carrinho vazio para o produto com a quantidade adicionada ao carrinho após clicar no botão 'add to cart'
  [X] abrir e fechar a caixa do carrinho ao clique;
+ [ ] media query para celular começando pela adaptação do cabeçalho
+ [ ] ajustar o box da imagem principal, ocultando o grid
+ [ ] ajustar o texto principal
+ [ ] ajustar o valor do ítem, desconto
+ [ ] ajustar a quantidade de ítens e o botão de adicionar no cartão
+ [ ] adicionar o ícone de abertura do menu
+ [ ] adicionar as duas flechas para alteração da imagem
+ [ ] criar função que altera a imagem ao clicar nos botões
+ [ ] expandir o menu ao clicar no ícone da grade
 
  
