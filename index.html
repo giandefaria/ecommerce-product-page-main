@@ -16,7 +16,7 @@
     <header class="container--header">
         <div class="logo--nav">
             <img src="images/logo.svg" alt="logo">
-            <ul>
+            <ul class="nav--list--desktop">
                 <li><a href="#">Collections</a></li>
                 <li><a href="#">Men</a></li>
                 <li><a href="#">Women</a></li>
@@ -34,7 +34,7 @@
             <img class="image--avatar" src="images/image-avatar.png" alt="image avatar">
             <section class="cart--box" id="cart--box">
                 <h1 class="cart--title">Cart</h1>
-                <div class="cart--empty--active" id="cart--empty">Cart Empty</div>
+                <div class="cart--empty--active" id="cart--empty">Your cart is empty.</div>
                 <div class="container" id="container">
                     <div class="cart--itens">
                         <img class="cart--thumbnail" src="images/image-product-1-thumbnail.jpg" alt="image thumbnail">
@@ -71,18 +71,24 @@
 
             </div>
             <div class="item-description">
+
                 <div class="title--description"> 
                     <h2 class="company">SNEAKER COMPANY</h2>
                     <h1 class="title">Fall Limited Edition Sneakers</h1>
                     <p class="description">These low-profile sneakers are your perfect casual wear companion. Featuring a 
                         durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
                 </div>
-                <div class="price">
-                    <p class="unit--price">$125.00</p>
-                    <p class="price--drop">50%</p>
-                    <p class="previus--price">$250.00</p>
 
+                <div class="price">
+                    <div>
+                        <p class="unit--price">$125.00</p>
+                        <p class="price--drop">50%</p>
+                    </div>
+                    <div>    
+                    <p class="previus--price">$250.00</p>
+                    </div>
                 </div>
+
                 <div class="quantidity--product" >
                     <label for="number">
                         <img class="icon--minus" src="images/icon-minus.svg" alt="icon minus">
@@ -90,7 +96,6 @@
                         <img class="icon--plus" src="images/icon-plus.svg" alt="icon plus">
                     </label>
                     <button class="add--to--cart"><img src="images/icon-cart.svg" alt="icon-cart">Add to cart</button>
-
                 </div>
 
             </div>

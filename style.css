@@ -272,3 +272,95 @@ label {
     vertical-align: initial;
     width: 5%;
 }
+
+@media screen and (max-width: 600px) {
+
+    html {
+        width: unset;
+    }
+
+    body {
+        padding: unset;
+    }
+
+    .container--header {
+        border-style: unset;
+        margin-bottom: unset;
+        padding: 20px 6vw 30px;
+    }
+
+    .nav--list--desktop {
+        display: none;
+    }
+
+    .image--avatar {
+        width: 24px;
+    }
+
+    .cart--box--active {
+        right: -4vw;
+        width: 96vw;
+        top: 65px;
+        border-radius: 8px;
+    }
+
+    .cart--empty--active {
+        width: unset;
+    }
+
+    .container--active {
+        align-items: unset;
+    }
+
+    .cart--itens {
+        justify-content: space-between;
+    }
+
+    .container--main {
+        grid-template-columns: 1fr;
+    }
+
+    .light--box {
+        padding: unset;
+        width: 100%;
+    }
+
+    .image--box img{
+        border-radius: unset;
+    }
+
+    .thumbnail {
+        display: none;
+    }
+
+    .item-description {
+        padding: 2vh 6vw 10vh;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .price {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .previus--price {
+        text-align: end;
+    }
+
+    .quantidity--product {
+        flex-direction: column;
+    }
+
+    label {
+        width: 100%;
+    }
+
+    .add--to--cart {
+        width: 100%;
+        padding: 18px 0;
+    }
+    
+}
