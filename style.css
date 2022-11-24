@@ -281,8 +281,6 @@ label {
         display: none;
     }
 
-    
-
 }
 
 @media screen and (max-width: 600px) {
@@ -368,12 +366,30 @@ label {
     }
 
     .light--box {
+        position: relative;
         padding: unset;
         width: 100%;
     }
 
     .image--box img{
         border-radius: unset;
+    }
+
+    .arrows {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        padding: 0 5%;
+        top: 45%;
+    }
+
+    .arrows img {
+        width: unset;
+        padding: 11px 14px;
+        background: white;
+        border-radius: 100%;
     }
 
     .thumbnail {

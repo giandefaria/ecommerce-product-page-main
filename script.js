@@ -96,6 +96,7 @@ clearCart[0].addEventListener('click', () => {
 
 })
 
+//open and close menu on icon click
 for (let i = 0; i < iconMenu.length; i++) {
     iconMenu[i].addEventListener('click', () => {
 

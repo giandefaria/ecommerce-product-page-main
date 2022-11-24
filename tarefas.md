@@ -39,7 +39,7 @@
  [X] adicionar o ícone de abertura do menu
  [x] criar box do menu no celular, adicionar ícone de fechar e os navegadores
  [X] adicionar função que abre e fecha menu lateral no celular
- [ ] adicionar as duas flechas para alteração da imagem
+ [X] adicionar as duas flechas para alteração da imagem
  [ ] criar função que altera a imagem ao clicar nos botões
 
 
