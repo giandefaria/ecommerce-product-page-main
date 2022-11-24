@@ -325,6 +325,7 @@ label {
         left: -1000px;
         background: linear-gradient(to right, white 66% ,rgb(20 20 20 / 76%) 30%);
         padding: 26px 0 0 24px;
+        z-index: 20;
     }
 
     .nav--list--mobile--active {

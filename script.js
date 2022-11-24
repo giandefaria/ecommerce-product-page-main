@@ -12,6 +12,8 @@ const cartTotal = document.getElementsByClassName("cart--total");
 const clearCart = document.getElementsByClassName('delete');
 const cartEmpty = document.getElementById("cart--empty");
 const cartFull = document.getElementById("container");
+const iconMenu = document.querySelectorAll(".icon--menu, .close--menu");
+const acessMenu = document.getElementsByClassName("nav--list--mobile");
 
 let selectedImage = "images/image-product-1.jpg" 
 let value = 0;
@@ -94,4 +96,10 @@ clearCart[0].addEventListener('click', () => {
 
 })
 
+for (let i = 0; i < iconMenu.length; i++) {
+    iconMenu[i].addEventListener('click', () => {
 
+        acessMenu[0].classList.toggle("nav--list--mobile--active");
+    })
+    
+}
