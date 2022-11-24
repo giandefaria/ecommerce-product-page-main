@@ -104,3 +104,28 @@ for (let i = 0; i < iconMenu.length; i++) {
     })
     
 }
+
+
+//modify image in mobile on click in arrow
+let cont = 1;
+
+const previousArrow = document.getElementById("previous");
+const nextArrow = document.getElementById ("next");
+
+previousArrow.addEventListener('click', () => {
+
+    if (cont > 1) {
+        cont--;
+        selectedImage = "images/image-product-" + cont + ".jpg";
+        setImage(); 
+    }
+})
+
+nextArrow.addEventListener('click', () => {
+
+    if (cont < 4) {
+        cont++;
+        selectedImage = "images/image-product-" + cont + ".jpg";
+        setImage(); 
+    }
+})

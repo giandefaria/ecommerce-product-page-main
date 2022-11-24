@@ -40,7 +40,9 @@
  [x] criar box do menu no celular, adicionar ícone de fechar e os navegadores
  [X] adicionar função que abre e fecha menu lateral no celular
  [X] adicionar as duas flechas para alteração da imagem
- [ ] criar função que altera a imagem ao clicar nos botões
+ [X] criar função que altera a imagem ao clicar nos botões
+ [ ] modificar visual da thumbnail selecionada
+ [ ] melhorar visual badge do carrinho
 
 
  

@@ -280,6 +280,10 @@ label {
     .nav--list--mobile {
         display: none;
     }
+    
+    .arrows {
+        display: none;
+    }
 
 }
 
@@ -347,6 +351,7 @@ label {
         width: 96vw;
         top: 65px;
         border-radius: 8px;
+        z-index: 20;
     }
 
     .cart--empty--active {
