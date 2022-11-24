@@ -36,7 +36,8 @@
  [X] ajustar o texto principal
  [X] ajustar o valor do ítem, desconto
  [X] ajustar a quantidade de ítens e o botão de adicionar no cartão
- [ ] adicionar o ícone de abertura do menu
+ [X] adicionar o ícone de abertura do menu
+ [x] criar box do menu no celular, adicionar ícone de fechar e os navegadores
  [ ] adicionar as duas flechas para alteração da imagem
  [ ] criar função que altera a imagem ao clicar nos botões
  [ ] expandir o menu ao clicar no ícone da grade

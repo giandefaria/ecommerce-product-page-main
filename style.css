@@ -272,6 +272,18 @@ label {
     vertical-align: initial;
     width: 5%;
 }
+@media screen and (min-width: 601px) {
+    .icon--menu{
+        display: none;
+    }
+
+    .nav--list--mobile {
+        display: none;
+    }
+
+    
+
+}
 
 @media screen and (max-width: 600px) {
 
@@ -283,14 +295,48 @@ label {
         padding: unset;
     }
 
+    .icon--menu {
+        display: block;
+    }
+
     .container--header {
         border-style: unset;
         margin-bottom: unset;
         padding: 20px 6vw 30px;
     }
 
+    .logo--nav {
+        align-items: flex-end;
+    }
+
     .nav--list--desktop {
         display: none;
+    }
+
+    .nav--list--mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        gap: 35px;
+        height: 100vh;
+        width: 100vw;
+        top: 0px;
+        left: -1000px;
+        background: linear-gradient(to right, white 66% ,rgb(20 20 20 / 76%) 30%);
+        padding: 26px 0 0 24px;
+    }
+
+    .nav--list--mobile--active {
+        left: 0;
+        transition: 500ms;
+    }
+
+    ul li, ul li a {
+        display: block;
+        color: black;
+        font-weight: 700;
+        margin-bottom: 25px;
     }
 
     .image--avatar {
