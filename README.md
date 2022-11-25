@@ -9,7 +9,7 @@
 
 ## Welcome! 👋
 
-Challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw
+Challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6
 
 **O objetivo é criar uma página ecommerce, alterando a imagem principal ao clicar nas miniaturas, adicionando a quantidade do produto ao carrinho, e abrir o carrinho de compras com a informação dos produtos adicionados.**
 
