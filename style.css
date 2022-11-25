@@ -154,6 +154,11 @@ ul li, ul li a {
     cursor: pointer;
 }
 
+.checkout:active {
+    border: groove;
+    border-color: orange;
+}
+
 .container--main {
     display: grid;
     grid-template-columns: 1fr 1fr;
