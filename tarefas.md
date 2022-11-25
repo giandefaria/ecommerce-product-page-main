@@ -42,7 +42,7 @@
  [X] adicionar as duas flechas para alteração da imagem
  [X] criar função que altera a imagem ao clicar nos botões
  [X] modificar visual da thumbnail selecionada
- [ ] melhorar visual badge do carrinho
+ [x] melhorar visual badge do carrinho
 
 
  
