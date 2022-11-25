@@ -11,7 +11,7 @@
 
 Challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw
 
-**O objetivo é treinar as habilidades com o uso do grid na página, além de adaptá-la para melhor visualização em dispositivos móveis. O principal foco dessa atividade é no HTML e CSS da página. Ao JS apenas cabe a função de ativar e recolher o menu de navegação nos dispositivos móveis.**
+**O objetivo é criar uma página ecommerce, alterando a imagem principal ao clicar nas miniaturas, adicionando a quantidade do produto ao carrinho, e abrir o carrinho de compras com a informação dos produtos adicionados.**
 
 **Para executar esse projeto basta executar o arquivo index.html.**
 
@@ -24,4 +24,4 @@ Challenge from frontendmentor.io. https://www.frontendmentor.io/challenges/loops
  * Adicionei o visual da página no desktop e no mobile 
 
  # Arquivo script.js
-  * Contém uma função JS simples, apenas para ativar e desativar a classe "menu--mobile" ao clicar no ícone. 
+  * Contém todas as funções JS responsáveis pela interação do usuário com a página. 
