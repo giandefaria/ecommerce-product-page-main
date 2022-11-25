@@ -167,9 +167,26 @@ ul li, ul li a {
     width: 75%;
 }
 
-.image--box img, .thumbnail img {
+.image--box img {
     width: 100%;
     border-radius: 14px;
+}
+
+.all--images {
+    width: 100%;
+    border-radius: 14px;
+}
+
+.all--images--active{
+    filter: opacity(0.2);
+}
+
+.border--active {
+    border-style: solid;
+    border-color: orange;
+    border-width: 3px;
+    border-radius: 19px;
+    height: 93%;
 }
 
 .thumbnail {
@@ -252,18 +269,28 @@ label {
     cursor: pointer;
 }
 
+.icon--minus:active, .icon--plus:active {
+    width: 13px;
+}
+
 #quantidity {
     font-weight: 700;
 }
 
 .add--to--cart {
     width: 75%;
+    height: 50px;
     color: white;
     font-weight: 700;
     background: hsl(26, 100%, 55%);
     border-radius: 10px;
     border-style: none;
     cursor: pointer;
+}
+
+.add--to--cart:active {
+    border: groove;
+    border-color: orange;
 }
 
 .add--to--cart img {

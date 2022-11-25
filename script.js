@@ -1,5 +1,6 @@
 const mainImage = document.getElementById('main--image');
 const allThumbnail = document.querySelectorAll(".all--images");
+const borderStyle = document.querySelectorAll(".border");
 const quantidity = document.getElementById('quantidity');
 const iconMinus = document.getElementsByClassName('icon--minus');
 const iconPlus = document.getElementsByClassName('icon--plus');
@@ -33,9 +34,22 @@ for (let i = 0; i < allThumbnail.length; i++) {
         var id = allThumbnail[i].id;
         selectedImage = ("images/" + id + ".jpg");
         setImage();
+        clearClassListThumbnail();
+        allThumbnail[i].classList.add("all--images--active");
+        borderStyle[i].classList.add("border--active");
 
     })
 
+}
+
+//remove filter and border thumbnail
+function clearClassListThumbnail () {
+    for (let i = 0; i < allThumbnail.length; i++) {
+        
+        allThumbnail[i].classList.remove("all--images--active");
+        borderStyle[i].classList.remove("border--active");
+                
+    }
 }
 
 // add numer itens to add in the cart

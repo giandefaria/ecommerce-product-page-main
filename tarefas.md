@@ -41,7 +41,7 @@
  [X] adicionar função que abre e fecha menu lateral no celular
  [X] adicionar as duas flechas para alteração da imagem
  [X] criar função que altera a imagem ao clicar nos botões
- [ ] modificar visual da thumbnail selecionada
+ [X] modificar visual da thumbnail selecionada
  [ ] melhorar visual badge do carrinho
 
 
