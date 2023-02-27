@@ -24,10 +24,12 @@
 
 # Proposta do projeto <a name="id01"></a>
 
-O layout do projeto é baseado nesse challenge do site Frontend Mentor: https://www.frontendmentor.io/challenges/loopstudios-landing-page-N88J5Onjw
+O layout do projeto é baseado nesse challenge do site Frontend Mentor: https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6
 
 
-O objetivo é treinar as habilidades com o uso do grid na página, além de adaptá-la para melhor visualização em dispositivos móveis. O principal foco dessa atividade é no HTML e CSS da página. Ao JS apenas cabe a função de ativar e recolher o menu de navegação nos dispositivos móveis.
+O objetivo é criar uma página ecommerce, alterando a imagem principal ao clicar nas miniaturas, adicionando a quantidade do produto ao carrinho, e abrir o carrinho de compras com a informação dos produtos adicionados.
+
+Para executar esse projeto basta executar o arquivo index.html.
 
 
 # Arquivos do projeto <a name="id03"> </a>
