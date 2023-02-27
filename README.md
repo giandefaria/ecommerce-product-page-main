@@ -1,15 +1,15 @@
 <p align="center">
   <image
-  src="https://img.shields.io/github/languages/count/giandefaria/Loopstudios-landing-page"
+  src="https://img.shields.io/github/languages/count/giandefaria/ecommerce-product-page-main"
   />
   <image
-  src="https://img.shields.io/github/languages/top/giandefaria/Loopstudios-landing-page"
+  src="https://img.shields.io/github/languages/top/giandefaria/ecommerce-product-page-main"
   />
   <image
-  src="https://img.shields.io/github/last-commit/giandefaria/Loopstudios-landing-page"
+  src="https://img.shields.io/github/last-commit/giandefaria/ecommerce-product-page-main"
   />
   <image
-  src="https://img.shields.io/github/watchers/giandefaria/Loopstudios-landing-page"
+  src="https://img.shields.io/github/watchers/giandefaria/ecommerce-product-page-main"
   />
 </p>
 
